@@ -1989,12 +1989,10 @@ name,export_rva,target_rva,target_size,source,status,notes
 ??0PhysicsBehavior@@QAE@PAVThing@@PBVModuleData@@@Z,,0x000328C6,5,Code/GameEngine/Source/GameLogic/Object/Update/PhysicsBehaviorCtorThunk.cpp,matched,5-byte incremental-link constructor thunk converted to focused C++ source
 ??0PhysicsBehaviorModuleData@@QAE@XZ,,0x0029A090,126,Code/GameEngine/Source/GameLogic/AI/PhysicsBehaviorModuleDataCtorThunk.cpp,matched,Open-BFME5 exact C++ raw module-data constructor
 ??0PilotFindVehicleUpdateModuleData@@QAE@XZ,,0x00852130,79,Code/GameEngine/Source/Common/INI/ini_parsers.cpp,matched,object-symbol=?initFromINIMultiProc@INI@@QAEXPAXP6AXAAVMultiIniFieldParse@@@Z@Z;ICF alias converted to existing clean C++ body
-??0Pinger@@QAE@XZ,,0x00660FD0,317,Code/GameEngine/Source/GameNetwork/Pinger_ctor_Thunk.cpp,matched,Open-BFME5 lift 317B retail MASM to standalone C++ thunk
 ??0PivotClass@@QAE@ABU0@@Z,,0x00972D70,383,Code/GameEngine/Source/Common/PivotClass_copy_ctor_Thunk.cpp,matched,
 
 
 ??0Pinger@@QAE@XZ,,0x00660FD0,317,Code/GameEngine/Source/GameNetwork/Pinger_ctor_Thunk.cpp,matched,Open-BFME5 lift 317B retail MASM to standalone C++ thunk
-??0PivotClass@@QAE@ABU0@@Z,,0x00972D70,383,Code/masm_dumps/___0PivotClass__QAE_ABU0__Z_972D70.asm,matched,
 ??0PivotClass@@QAE@XZ,,0x009733F0,187,Code/Libraries/Source/WWVegas/WW3D2/PivotClassCtor_Thunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM dump
 ??0PivotMapClass@@QAE@XZ,,0x00974770,55,Code/Libraries/Source/WWVegas/WW3D2/hanim.cpp,matched,
 ??0PlaneClass@@QAE@ABV0@@Z,,0x0091FDD0,31,Code/Libraries/Source/WWVegas/WW3D2/camera.cpp,matched,
@@ -2114,7 +2112,6 @@ name,export_rva,target_rva,target_size,source,status,notes
 ??0RenderObjectDrawModuleTemplate@FXParticleSystem@@QAE@XZ,,0x005DE400,106,Code/GameEngine/Source/GameClient/System/FXParticleSystem/RenderObjectDrawModuleTemplateCtorThunk.cpp,matched,Open-BFME5 exact C++ RenderObjectDrawModuleTemplate constructor;object-symbol=??0RenderObjectDrawModuleTemplate@FXParticleSystem@@QAE@XZ
 ??0RenderObjectUpdateModuleInfo@FXParticleSystem@@QAE@ABV01@@Z,0x000310FC,0x005D92C0,301,Code/GameEngine/Source/GameClient/FXParticleSystem_RenderObjectUpdateModuleInfo_CopyCtor_Thunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM dump
 
-??0RenderObjectUpdateModuleInfo@FXParticleSystem@@QAE@ABV01@@Z,0x000310FC,0x005D92C0,301,Code/masm_dumps/___0RenderObjectUpdateModuleInfo_FXParticleSystem___5D92C0.asm,matched,
 ??0RenderObjectUpdateModuleInfo@FXParticleSystem@@QAE@XZ,0x000033EB,0x00600460,349,Code/GameEngine/Source/GameClient/FXParticleSystem_RenderObjectUpdateModuleInfo_ctor_Thunk.cpp,matched,Open-BFME5 lift 349B retail MASM to standalone C++ thunk
 ??0RenderObjectUpdateModuleTemplate@FXParticleSystem@@QAE@ABV01@@Z,,0x005D9720,62,Code/GameEngine/Source/GameClient/System/FXParticleSystem/RenderObjectUpdateModuleTemplateCopyCtorThunk.cpp,matched,Open-BFME5 clean C++ conversion of __emit copy-ctor thunk
 ??0RenderObjectUpdateModuleTemplate@FXParticleSystem@@QAE@XZ,0x00035490,0x005D9650,106,Code/GameEngine/Source/GameClient/System/FXParticleSystem/RenderObjectUpdateModuleTemplateCtorThunk.cpp,matched,Converted to an exact standalone C++ thunk
@@ -2480,10 +2477,6 @@ name,export_rva,target_rva,target_size,source,status,notes
 ??0WorkerAIUpdateModuleData@@QAE@XZ,,0x0011BF80,141,Code/GameEngine/Source/GameLogic/Object/Update/AIUpdate/WorkerAIUpdateModuleDataCtorThunk.cpp,matched,Open-BFME5 exact 141B retail module-data constructor
 ??0WorkerStateMachine@@QAE@PAVObject@@@Z,,0x002C9260,387,Code/GameEngine/Source/GameLogic/Object/Update/AIUpdate/WorkerStateMachine_ctor_Thunk.cpp,matched,Open-BFME5 lift 387B retail MASM to standalone C++ thunk
 ??0WorldAnimationData@@QAE@XZ,,0x0015A230,25,Code/GameEngine/Source/GameClient/InGameUI.cpp,matched,
-??0WorldHeightMap@@IAE@XZ,,0x0074E990,303,Code/GameEngine/Source/Common/WorldHeightMap_ctor_Thunk.cpp,matched,Open-BFME5 lift 303B retail MASM to standalone C++ thunk
-??0WorldHeightMap@@QAE@PAVChunkInputStream@@_N@Z,,0x0074EB10,352,Code/GameEngine/Source/Common/WorldHeightMap_stream_ctor_Thunk.cpp,matched,Open-BFME5 lift 352B retail MASM to standalone C++ thunk
-??0WorldHeightMap@@IAE@XZ,,0x0074E990,303,Code/GameEngine/Source/Common/WorldHeightMap_ctor_Thunk.cpp,matched,Open-BFME5 lift 303B retail MASM to standalone C++ thunk
-??0WorldHeightMap@@QAE@PAVChunkInputStream@@_N@Z,,0x0074EB10,352,Code/GameEngine/Source/Common/WorldHeightMap_stream_ctor_Thunk.cpp,matched,Open-BFME5 lift 352B retail MASM to standalone C++ thunk
 ??0WorldHeightMap@@IAE@XZ,,0x0074E990,303,Code/GameEngine/Source/Common/WorldHeightMap_ctor_Thunk.cpp,matched,Open-BFME5 lift 303B retail MASM to standalone C++ thunk
 ??0WorldHeightMap@@QAE@PAVChunkInputStream@@_N@Z,,0x0074EB10,352,Code/GameEngine/Source/Common/WorldHeightMap_stream_ctor_Thunk.cpp,matched,Open-BFME5 lift 352B retail MASM to standalone C++ thunk
 ??0WoundArrowUpdate@@QAE@PAVThing@@PBVModuleData@@@Z,,0x0026DFB0,60,Code/GameEngine/Source/GameLogic/Object/Update/WoundArrowUpdate.cpp,matched,Luna Open-BFME5.0 clean C++ SpecialAbilityUpdate constructor
@@ -11390,10 +11383,7 @@ name,export_rva,target_rva,target_size,source,status,notes
 ?getListboxBottomEntry@@YAHPAU_ListboxData@@@Z,,0x004B6BA0,63,Code/GameEngine/Source/GameClient/GUI/Gadget/GadgetListBoxGetBottomEntryThunk.cpp,matched,Open-BFME5 exact C++ __emit port of 63-byte retail helper
 ?getListboxEntryBasedOnCoord@@YAHPAVGameWindow@@HHAAH1@Z,,0x004B69D0,273,Code/GameEngine/Source/GameClient/GUI/Gadget/GadgetListBox.cpp,matched,clean C++; DisplayString vtable TU-shim (reference/shims/displaystring) drops ZH MEMORY_POOL_GLUE extra getObjectMemoryPool slot so getTextLength lands at retail vtbl+0xC; ListboxData raw-offset casts (listData@+0x18 endPos@+0x2c columnWidth@+0x14 displayPos/displayHeight@+0x3c/+0x44)
 ?getListboxTopEntry@@YAHPAU_ListboxData@@@Z,,0x004B6B60,44,Code/GameEngine/Source/GameClient/GUI/Gadget/GadgetListBox.cpp,matched,direct C++ listbox top-entry helper with packed retail layout replaces MASM dump
-?getLoadScreen@GameLogic@@AAEPAVLoadScreen@@_N@Z,,0x006BACD7,83,Code/GameEngine/Source/GameLogic/System/GameLogic_getLoadScreen_Thunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM
 ?getLoadScreen@GameLogic@@AAEPAVLoadScreen@@_N@Z,,0x006BACD7,83,Code/GameEngine/Source/GameLogic/System/GameLogic_getLoadScreen_Thunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM
-?getLoadScreen@GameLogic@@AAEPAVLoadScreen@@_N@Z,,0x006BACD7,83,Code/GameEngine/Source/GameLogic/System/GameLogicGetLoadScreenThunk.cpp,matched,Open-BFME5 exact C++ __emit port of the first 83B GameLogic getLoadScreen body
-?getLoadScreen@GameLogic@@AAEPAVLoadScreen@@_N@Z,,0x006BACD7,83,Code/GameEngine/Source/GameLogic/System/GameLogicGetLoadScreenThunk.cpp,matched,Open-BFME5 exact C++ __emit port of the first 83B GameLogic getLoadScreen body
 ?getLocalAddr@UDP@@QAEHAAIAAG@Z,,0x006845C0,25,Code/GameEngine/Source/GameNetwork/udp.cpp,matched,
 ?getLocalLadders@LadderList@@QAEPBV?$list@PAVLadderInfo@@V?$allocator@PAVLadderInfo@@@_STL@@@_STL@@XZ,,0x0062A160,3,Code/GameEngine/Source/GameNetwork/GameSpy/LadderDefs.cpp,matched,Ghidra-bound unique accessor
 ?getLocalPlayerID@ConnectionManager@@QAEIXZ,,0x00663740,7,Code/GameEngine/Source/GameNetwork/ConnectionManager.cpp,matched,thunk-dump converted to clean C++; ConnectionManager layout TU-shimmed (reference/shims/connectionmanager)
@@ -32650,10 +32640,7 @@ name,export_rva,target_rva,target_size,source,status,notes
 ?map_point_to_address@GridCullSystemClass@@IAE_NABVVector3@@AAH@Z,,0x008DDB20,184,Code/Libraries/Source/WWVegas/WWMath/gridcull.cpp,matched,
 ?map_point_to_cell@GridCullSystemClass@@IAE_NABVVector3@@AAH11@Z,,0x008DCED0,173,Code/Libraries/Source/WWVegas/WWMath/gridcull.cpp,matched,
 ?markAsDisconnectedAfterGameStart@GameSpyInfo@@UAEXH@Z,,0x006371F0,14,Code/GameEngine/Source/GameNetwork/GameSpy/PeerDefs.cpp,matched,
-?markAsStagingRoomHost@GameSpyInfo@@UAEXXZ,,0x006313F0,390,Code/GameEngine/Source/GameNetwork/GameSpy/GameSpyInfo_markAsStagingRoomHost_Thunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM
 ?markAsStagingRoomHost@GameSpyInfo@@UAEXXZ,,0x006313F0,390,Code/GameEngine/Source/GameNetwork/GameSpy/GameSpyInfo_markAsStagingRoomHost_Thunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM
-?markAsStagingRoomJoiner@GameSpyInfo@@UAEXH@Z,,0x00632B80,322,Code/GameEngine/Source/GameNetwork/GameSpy/GameSpyInfo_markAsStagingRoomJoiner_Thunk.cpp,matched,Open-BFME5 lift 322B retail MASM to standalone C++ thunk
-?markAsStagingRoomHost@GameSpyInfo@@UAEXXZ,,0x006313F0,390,Code/GameEngine/Source/GameNetwork/GameSpy/PeerDefs_markAsStagingRoomHost.asm,matched,MASM exact 390B; true body 0x6313F0 not drift 0x791B33
 ?markAsStagingRoomJoiner@GameSpyInfo@@UAEXH@Z,,0x00632B80,322,Code/GameEngine/Source/GameNetwork/GameSpy/GameSpyInfo_markAsStagingRoomJoiner_Thunk.cpp,matched,Open-BFME5 lift 322B retail MASM to standalone C++ thunk
 ?markPlayerAsPreorder@GameInfo@@QAEXH@Z,,0x0061E680,28,Code/GameEngine/Source/GameNetwork/GameInfo.cpp,matched,
 ?markPlayerInGame@BFMEConnectionManager@@QAEXPAX@Z,,0x00662D90,61,Code/GameEngine/Source/GameNetwork/native_connection_timing.cpp,matched,
@@ -33371,7 +33358,6 @@ name,export_rva,target_rva,target_size,source,status,notes
 ?releaseWindowPointers@@YAXXZ,,0x004C3170,294,Code/GameEngine/Source/GameClient/GUI/GUICallbacks/Diplomacy.cpp,matched,address+name proven from a matched callers relocation
 ?reloadWithBonus@Weapon@@IAEXPBVObject@@ABVWeaponBonus@@_N@Z,,0x001E8720,371,Code/GameEngine/Source/GameLogic/Object/Weapon_reloadWithBonus_Thunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM dump
 
-?reloadWithBonus@Weapon@@IAEXPBVObject@@ABVWeaponBonus@@_N@Z,,0x001E8720,371,Code/GameEngine/Source/GameLogic/Object/Weapon_reloadWithBonus_Thunk.cpp,matched,Open-BFME5 lift 371B retail MASM to standalone C++ thunk
 ?remove@Dict@@QAE_NW4NameKeyType@@@Z,,0x000688E0,73,Code/GameEngine/Source/Common/Dict.cpp,matched,
 ?remove@LListNode@@QAEXXZ,,0x00105930,21,Code/GameEngine/Source/Common/System/List.cpp,matched,
 ?removeAllBibs@W3DTerrainVisual@@UAEXXZ,,0x00731000,13,Code/GameEngineDevice/Source/W3DDevice/GameClient/W3DTerrainVisual.cpp,matched,
