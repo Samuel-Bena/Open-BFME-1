@@ -1593,7 +1593,6 @@ name,export_rva,target_rva,target_size,source,status,notes
 ??0GameTextManager@@QAE@XZ,,0x00438350,161,Code/GameEngine/Source/GameClient/GameTextManager_ctor_Thunk.cpp,matched,Open-BFME5 lift 161B retail MASM to standalone C++ thunk
 
 ??0GameWindow@@QAE@XZ,,0x004792F0,156,Code/GameEngine/Source/GameClient/GUI/GameWindowDefaultConstructorThunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM dump
-??0GameTextManager@@QAE@XZ,,0x00438350,161,Code/GameEngine/Source/GameClient/GameTextManager_ctor_clean.cpp,matched,Open-BFME5 exact C++ GameTextManager constructor; BFME 0x7840 layout and thin UnicodeString ctor
 
 ??0GarrisonContain@@QAE@PAVThing@@PBVModuleData@@@Z,,0x0021D820,312,Code/GameEngine/Source/GameLogic/AI/GarrisonContainCtorThunk.cpp,matched,Open-BFME5 exact C++ raw contain constructor
 ??0GarrisonContainModuleData@@QAE@XZ,,0x0022F7E0,153,Code/GameEngine/Source/GameLogic/AI/GarrisonContainModuleDataCtorThunk.cpp,matched,Open-BFME5 exact C++ raw module-data constructor
