@@ -1590,10 +1590,7 @@ name,export_rva,target_rva,target_size,source,status,notes
 ??0GameSpyMiscPreferences@@QAE@XZ,,0x000AB910,192,Code/GameEngine/Source/GameNetwork/GameSpy/GameSpyMiscPreferences_Ctor_Thunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM dump
 ??0GameState@@QAE@XZ,,0x001111C0,171,Code/GameEngine/Source/Common/System/SaveGame/GameState_ctor_Thunk.cpp,matched,Open-BFME5 lift 171B retail MASM to standalone C++ thunk
 ??0GameTextManager@@QAE@XZ,,0x00438350,161,Code/GameEngine/Source/GameClient/GameTextManager_ctor_Thunk.cpp,matched,Open-BFME5 lift 161B retail MASM to standalone C++ thunk
-??0GameTextManager@@QAE@XZ,,0x00438350,161,Code/GameEngine/Source/GameClient/GameTextManager_ctor_Thunk.cpp,matched,Open-BFME5 lift 161B retail MASM to standalone C++ thunk
-
 ??0GameWindow@@QAE@XZ,,0x004792F0,156,Code/GameEngine/Source/GameClient/GUI/GameWindowDefaultConstructorThunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM dump
-
 ??0GarrisonContain@@QAE@PAVThing@@PBVModuleData@@@Z,,0x0021D820,312,Code/GameEngine/Source/GameLogic/AI/GarrisonContainCtorThunk.cpp,matched,Open-BFME5 exact C++ raw contain constructor
 ??0GarrisonContainModuleData@@QAE@XZ,,0x0022F7E0,153,Code/GameEngine/Source/GameLogic/AI/GarrisonContainModuleDataCtorThunk.cpp,matched,Open-BFME5 exact C++ raw module-data constructor
 ??0GateOpenAndCloseBehavior@@QAE@PAVThing@@PBVModuleData@@@Z,,0x001FC580,197,Code/GameEngine/Source/GameLogic/Object/Behavior/GateOpenAndCloseBehaviorCtorThunk.cpp,matched,Exact 197B; factory ownership Open-BFME4
@@ -2752,6 +2749,7 @@ name,export_rva,target_rva,target_size,source,status,notes
 ??1?$pair@$$CBVUnicodeString@@V1@@_STL@@QAE@XZ,,0x0068E6D0,76,Code/GameEngine/Source/GameNetwork/LANGameInfo.cpp,matched,
 ??1?$pair@$$CBVUnicodeString@@VAsciiString@@@_STL@@QAE@XZ,,0x000A9B80,76,Code/GameEngine/Source/GameClient/MapUtil_pair_UnicodeString_AsciiString_dtor_Thunk.cpp,matched,Open-BFME5 clean C++ pair UnicodeString/AsciiString dtor
 ??1?$pair@$$CBVUnicodeString@@VAsciiString@@@_STL@@QAE@XZ,,0x000A9B80,76,Code/GameEngine/Source/GameClient/MapUtilPairUnicodeAsciiDtor.cpp,matched,Open-BFME5 exact C++ pair destructor replacing MASM body; retail freeBytes then Unicode releaseBuffer
+??1?$pair@$$CBVUnicodeString@@VAsciiString@@@_STL@@QAE@XZ,,0x000A9B80,76,Code/GameEngine/Source/GameClient/MapUtilPairUnicodeAsciiDtor.cpp,matched,Open-BFME5 exact C++ pair destructor replacing MASM body; retail freeBytes then Unicode releaseBuffer
 ??1?$pair@$$CBW4NameKeyType@@VObjectCreationList@@@_STL@@QAE@XZ,,0x00009525,5,Code/Libraries/Source/WWVegas/WWLib/NameKeyTypeObjectCreationPairDestructorThunk.cpp,matched,5-byte incremental-link STL destructor thunk converted to focused C++ thunk TU
 ??1?$set@PAVGameSpyStagingRoom@@U?$less@PAVGameSpyStagingRoom@@@_STL@@V?$allocator@PAVGameSpyStagingRoom@@@3@@_STL@@QAE@XZ,,0x0062CC40,5,Code/GameEngine/Source/GameNetwork/GameSpy/LobbyUtils.cpp,matched,STLport template-internal COMDAT emitted by this TU; thunk-dump repointed to real body
 ??1?$vector@PAVLocomotor@@V?$allocator@PAVLocomotor@@@_STL@@@_STL@@QAE@XZ,,0x0058C420,14,Code/GameEngine/Source/GameLogic/Object/Locomotor.cpp,matched,
@@ -11391,6 +11389,7 @@ name,export_rva,target_rva,target_size,source,status,notes
 ?getLoadScreen@GameLogic@@AAEPAVLoadScreen@@_N@Z,,0x006BACD7,83,Code/GameEngine/Source/GameLogic/System/GameLogic_getLoadScreen_Thunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM
 ?getLoadScreen@GameLogic@@AAEPAVLoadScreen@@_N@Z,,0x006BACD7,83,Code/GameEngine/Source/GameLogic/System/GameLogic_getLoadScreen_Thunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM
 ?getLoadScreen@GameLogic@@AAEPAVLoadScreen@@_N@Z,,0x006BACD7,83,Code/GameEngine/Source/GameLogic/System/GameLogicGetLoadScreenThunk.cpp,matched,Open-BFME5 exact C++ __emit port of the first 83B GameLogic getLoadScreen body
+?getLoadScreen@GameLogic@@AAEPAVLoadScreen@@_N@Z,,0x006BACD7,83,Code/GameEngine/Source/GameLogic/System/GameLogicGetLoadScreenThunk.cpp,matched,Open-BFME5 exact C++ __emit port of the first 83B GameLogic getLoadScreen body
 ?getLocalAddr@UDP@@QAEHAAIAAG@Z,,0x006845C0,25,Code/GameEngine/Source/GameNetwork/udp.cpp,matched,
 ?getLocalLadders@LadderList@@QAEPBV?$list@PAVLadderInfo@@V?$allocator@PAVLadderInfo@@@_STL@@@_STL@@XZ,,0x0062A160,3,Code/GameEngine/Source/GameNetwork/GameSpy/LadderDefs.cpp,matched,Ghidra-bound unique accessor
 ?getLocalPlayerID@ConnectionManager@@QAEIXZ,,0x00663740,7,Code/GameEngine/Source/GameNetwork/ConnectionManager.cpp,matched,thunk-dump converted to clean C++; ConnectionManager layout TU-shimmed (reference/shims/connectionmanager)
