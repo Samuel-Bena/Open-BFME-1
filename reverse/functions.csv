@@ -11383,7 +11383,6 @@ name,export_rva,target_rva,target_size,source,status,notes
 ?getListboxBottomEntry@@YAHPAU_ListboxData@@@Z,,0x004B6BA0,63,Code/GameEngine/Source/GameClient/GUI/Gadget/GadgetListBoxGetBottomEntryThunk.cpp,matched,Open-BFME5 exact C++ __emit port of 63-byte retail helper
 ?getListboxEntryBasedOnCoord@@YAHPAVGameWindow@@HHAAH1@Z,,0x004B69D0,273,Code/GameEngine/Source/GameClient/GUI/Gadget/GadgetListBox.cpp,matched,clean C++; DisplayString vtable TU-shim (reference/shims/displaystring) drops ZH MEMORY_POOL_GLUE extra getObjectMemoryPool slot so getTextLength lands at retail vtbl+0xC; ListboxData raw-offset casts (listData@+0x18 endPos@+0x2c columnWidth@+0x14 displayPos/displayHeight@+0x3c/+0x44)
 ?getListboxTopEntry@@YAHPAU_ListboxData@@@Z,,0x004B6B60,44,Code/GameEngine/Source/GameClient/GUI/Gadget/GadgetListBox.cpp,matched,direct C++ listbox top-entry helper with packed retail layout replaces MASM dump
-?getLoadScreen@GameLogic@@AAEPAVLoadScreen@@_N@Z,,0x006BACD7,83,Code/GameEngine/Source/GameLogic/System/GameLogic_getLoadScreen_Thunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM
 ?getLoadScreen@GameLogic@@AAEPAVLoadScreen@@_N@Z,,0x006BACD7,83,Code/GameEngine/Source/GameLogic/System/GameLogic_getLoadScreen_Thunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM
 ?getLocalAddr@UDP@@QAEHAAIAAG@Z,,0x006845C0,25,Code/GameEngine/Source/GameNetwork/udp.cpp,matched,
 ?getLocalLadders@LadderList@@QAEPBV?$list@PAVLadderInfo@@V?$allocator@PAVLadderInfo@@@_STL@@@_STL@@XZ,,0x0062A160,3,Code/GameEngine/Source/GameNetwork/GameSpy/LadderDefs.cpp,matched,Ghidra-bound unique accessor
@@ -32641,8 +32640,6 @@ name,export_rva,target_rva,target_size,source,status,notes
 ?map_point_to_address@GridCullSystemClass@@IAE_NABVVector3@@AAH@Z,,0x008DDB20,184,Code/Libraries/Source/WWVegas/WWMath/gridcull.cpp,matched,
 ?map_point_to_cell@GridCullSystemClass@@IAE_NABVVector3@@AAH11@Z,,0x008DCED0,173,Code/Libraries/Source/WWVegas/WWMath/gridcull.cpp,matched,
 ?markAsDisconnectedAfterGameStart@GameSpyInfo@@UAEXH@Z,,0x006371F0,14,Code/GameEngine/Source/GameNetwork/GameSpy/PeerDefs.cpp,matched,
-?markAsStagingRoomHost@GameSpyInfo@@UAEXXZ,,0x006313F0,390,Code/GameEngine/Source/GameNetwork/GameSpy/GameSpyInfo_markAsStagingRoomHost_Thunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM
-?markAsStagingRoomJoiner@GameSpyInfo@@UAEXH@Z,,0x00632B80,322,Code/GameEngine/Source/GameNetwork/GameSpy/GameSpyInfo_markAsStagingRoomJoiner_Thunk.cpp,matched,Open-BFME5 lift 322B retail MASM to standalone C++ thunk
 ?markAsStagingRoomHost@GameSpyInfo@@UAEXXZ,,0x006313F0,390,Code/GameEngine/Source/GameNetwork/GameSpy/GameSpyInfo_markAsStagingRoomHost_Thunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM
 ?markAsStagingRoomJoiner@GameSpyInfo@@UAEXH@Z,,0x00632B80,322,Code/GameEngine/Source/GameNetwork/GameSpy/GameSpyInfo_markAsStagingRoomJoiner_Thunk.cpp,matched,Open-BFME5 lift 322B retail MASM to standalone C++ thunk
 ?markPlayerAsPreorder@GameInfo@@QAEXH@Z,,0x0061E680,28,Code/GameEngine/Source/GameNetwork/GameInfo.cpp,matched,
