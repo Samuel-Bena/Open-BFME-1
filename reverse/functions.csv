@@ -1590,9 +1590,11 @@ name,export_rva,target_rva,target_size,source,status,notes
 ??0GameSpyMiscPreferences@@QAE@XZ,,0x000AB910,192,Code/GameEngine/Source/GameNetwork/GameSpy/GameSpyMiscPreferences_Ctor_Thunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM dump
 ??0GameState@@QAE@XZ,,0x001111C0,171,Code/GameEngine/Source/Common/System/SaveGame/GameState_ctor_Thunk.cpp,matched,Open-BFME5 lift 171B retail MASM to standalone C++ thunk
 ??0GameTextManager@@QAE@XZ,,0x00438350,161,Code/GameEngine/Source/GameClient/GameTextManager_ctor_Thunk.cpp,matched,Open-BFME5 lift 161B retail MASM to standalone C++ thunk
+??0GameTextManager@@QAE@XZ,,0x00438350,161,Code/GameEngine/Source/GameClient/GameTextManager_ctor_Thunk.cpp,matched,Open-BFME5 lift 161B retail MASM to standalone C++ thunk
+
 ??0GameWindow@@QAE@XZ,,0x004792F0,156,Code/GameEngine/Source/GameClient/GUI/GameWindowDefaultConstructorThunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM dump
 ??0GameTextManager@@QAE@XZ,,0x00438350,161,Code/GameEngine/Source/GameClient/GameTextManager_ctor_clean.cpp,matched,Open-BFME5 exact C++ GameTextManager constructor; BFME 0x7840 layout and thin UnicodeString ctor
-??0GameWindow@@QAE@XZ,,0x004792F0,156,Code/masm_dumps/GameWindow_default_constructor_004792F0_packet332.asm,matched,Certified packet 332 SHA256 889fc8ecd26fa7027daa5c7542107cdfa86686169e57919bd48c509cd25d3194
+
 ??0GarrisonContain@@QAE@PAVThing@@PBVModuleData@@@Z,,0x0021D820,312,Code/GameEngine/Source/GameLogic/AI/GarrisonContainCtorThunk.cpp,matched,Open-BFME5 exact C++ raw contain constructor
 ??0GarrisonContainModuleData@@QAE@XZ,,0x0022F7E0,153,Code/GameEngine/Source/GameLogic/AI/GarrisonContainModuleDataCtorThunk.cpp,matched,Open-BFME5 exact C++ raw module-data constructor
 ??0GateOpenAndCloseBehavior@@QAE@PAVThing@@PBVModuleData@@@Z,,0x001FC580,197,Code/GameEngine/Source/GameLogic/Object/Behavior/GateOpenAndCloseBehaviorCtorThunk.cpp,matched,Exact 197B; factory ownership Open-BFME4
@@ -7192,7 +7194,6 @@ name,export_rva,target_rva,target_size,source,status,notes
 ?Internal_Get_List_Head@GenericMultiListClass@@IAEPAVMultiListObjectClass@@XZ,,0x00710D40,17,Code/Libraries/Source/WWVegas/WW3D2/dx8renderer.cpp,matched,
 ?Internal_Get_Next@GenericSLNode@@IAEPAXXZ,,0x0010BDB0,3,Code/GameEngineDevice/Source/W3DDevice/GameClient/W3DAssetManager.cpp,matched,icf-owner=?getDistributionType@GameClientRandomVariable@@QBE?AW4DistributionType@1@XZ
 ?Internal_Remove@GenericMultiListClass@@IAE_NPAVMultiListObjectClass@@@Z,,0x009DC100,104,Code/Libraries/Source/WWVegas/WWLib/GenericMultiListClass_Internal_Remove_Thunk.cpp,matched,Open-BFME5 lift 104B retail method MASM to standalone C++ thunk
-?Internal_Remove@GenericMultiListClass@@IAE_NPAVMultiListObjectClass@@@Z,,0x009DC100,104,Code/Libraries/Source/WWVegas/WWLib/GenericMultiListClassInternalRemoveThunk.cpp,matched,Open-BFME5 exact C++ __emit port of 104B Internal_Remove ASM
 ?Internal_Remove_List_Head@GenericMultiListClass@@IAEPAVMultiListObjectClass@@XZ,,0x009DC170,27,Code/Libraries/Source/WWVegas/WWLib/multilist.cpp,matched,
 ?Intersect@RenderObjClass@@UAE_NPAVIntersectionClass@@PAVIntersectionResultClass@@@Z,,0x00920850,456,Code/Libraries/Source/WWVegas/WW3D2/rendobj.cpp,matched,exact-ambiguous COMDAT pinned by string anchor
 ?IntersectLine2D@@YA_NPBUCoord2D@@000PAU1@@Z,,0x0044EC20,286,Code/GameEngine/Source/Common/line2_d.cpp,matched,
@@ -7519,6 +7520,7 @@ name,export_rva,target_rva,target_size,source,status,notes
 ?ParseScript@Script@@SAPAV1@AAVDataChunkInput@@G@Z,,0x0035C0C0,579,Code/GameEngine/Source/GameLogic/ScriptEngine/Script_ParseScript_Thunk.cpp,matched,Open-BFME5 MASM lift
 ?ParseObjectsDataChunk@@YA_NAAVDataChunkInput@@PAUDataChunkInfo@@PAX@Z,,0x00454A60,124,Code/GameEngine/Source/GameClient/MapUtilParseObjectsDataChunkThunk.cpp,matched,Open-BFME5 exact C++ __emit port of 124B ParseObjectsDataChunk ASM
 ?ParseOrConditionDataChunk@OrCondition@@SA_NAAVDataChunkInput@@PAUDataChunkInfo@@PAX@Z,,0x0035B700,176,Code/masm_dumps/OrCondition_ParseOrConditionDataChunk_35B700.asm,matched,Exact 176B @0x35B700; queue 0xAB6ADE misplaced; ILT 0x16568->body; Condition+new(0xC)
+
 ?ParseScript@Script@@SAPAV1@AAVDataChunkInput@@G@Z,,0x0035C0C0,579,Code/masm_dumps/_sa4__ParseScript_Script__SAPAV1_AAVDataChunkInput__G_Z_35C0C0.asm,matched,Exact 579B Open-BFME4
 ?ParseScriptListDataChunk@ScriptList@@SA_NAAVDataChunkInput@@PAUDataChunkInfo@@PAX@Z,,0x00350F50,153,Code/GameEngine/Source/Common/ScriptList_ParseScriptListDataChunkThunk.cpp,matched,Open-BFME5 MASM lift ParseScriptListDataChunk
 ?ParseScriptsDataChunk@ScriptList@@SA_NAAVDataChunkInput@@PAUDataChunkInfo@@PAX@Z,,0x0035BFB0,211,Code/GameEngine/Source/GameLogic/ScriptEngine/ScriptList_ParseScriptsDataChunk_Thunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM dump
