@@ -23220,3 +23220,4 @@ g_windGlobalB,0x012B8E00,WindModuleInfo ctor global
 ?isWeaponSlotOnTurret@TurretAI@@QBE_NW4WeaponSlotType@@@Z,0x00039D24,ILT thunk to TurretAI::isWeaponSlotOnTurret at 0x0018C7A0
 ?isTryingToAimAtTarget@TurretAI@@QBE_NPBVObject@@@Z,0x000079D7,ILT thunk to TurretAI::isTryingToAimAtTarget at 0x0018D080
 ?updateDrawableSupplyStatus@Drawable@@QAEXHH@Z,0x00031615,ILT thunk to Drawable::updateDrawableSupplyStatus at 0x00411E50
+?Check_Is_Transform_Identity@@YI_NABVMatrix3D@@@Z,0x0091FF40,register-convention alias of the static inline Check_Is_Transform_Identity; same body as the cdecl-mangled row

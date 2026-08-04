@@ -8495,7 +8495,7 @@ name,export_rva,target_rva,target_size,source,status,notes
 ?Valid_File@FilePipe@@AAE_NXZ,,0x009E1B80,11,Code/Libraries/Source/WWVegas/WWLib/xpipe.cpp,matched,
 ?Valid_File@FileStraw@@AAE_NXZ,,0x009E7D40,11,Code/Libraries/Source/WWVegas/WWLib/xstraw.cpp,matched,
 ?Validate_Cached_Bounding_Volumes@RenderObjClass@@IBEXXZ,,0x0091FD90,8,Code/Libraries/Source/WWVegas/WW3D2/rendobj.cpp,matched,
-?Validate_Transform@RenderObjClass@@UBEXXZ,,0x00920270,80,Code/GameEngine/Source/Common/RenderObjClass_Validate_Transform_Thunk.cpp,matched,Open-BFME5 exact C++ __emit thunk converted from MASM dump
+?Validate_Transform@RenderObjClass@@UBEXXZ,,0x00920270,80,Code/GameEngine/Source/Common/RenderObjClass_Validate_Transform_Thunk.cpp,matched,clean C++ conversion; verbatim ZH rendobj.cpp body; Bits at this+0x10 with SUBOBJ_TRANSFORMS_DIRTY as bit 21; Transform at this+0x18; IsTransformIdentity at this+0x7C; Container at this+0x84; Check_Is_Transform_Identity takes the matrix in ecx
 ?Value@CRCEngine@@IBEJXZ,,0x009E8020,17,Code/Libraries/Source/WWVegas/WWLib/crc.cpp,matched,
 ?Version1@Xfer@@QAEXXZ,0x000429C9,0x000C7E90,21,Code/GameEngine/Source/Common/System/Xfer.cpp,matched,xfer version 1 marker
 ?Visibility_Check@RTS3DScene@@UAEXPAVCameraClass@@@Z,,0x009446F0,1075,Code/GameEngineDevice/Source/W3DDevice/GameClient/W3DScene_Visibility_Check.asm,matched,exact 1075B via MASM
