@@ -23222,3 +23222,5 @@ g_windGlobalB,0x012B8E00,WindModuleInfo ctor global
 ?updateDrawableSupplyStatus@Drawable@@QAEXHH@Z,0x00031615,ILT thunk to Drawable::updateDrawableSupplyStatus at 0x00411E50
 ?Check_Is_Transform_Identity@@YI_NABVMatrix3D@@@Z,0x0091FF40,register-convention alias of the static inline Check_Is_Transform_Identity; same body as the cdecl-mangled row
 ?applyMotiveForce@PhysicsBehavior@@QAEXPBUCoord3D@@@Z,0x0002A284,ILT thunk to PhysicsBehavior::applyMotiveForce at 0x0029AC40
+?getSpecialPowerModule@Object@@QAEPAVSpecialPowerModuleInterface@@PBVSpecialPowerTemplate@@@Z,0x000401BF,ILT thunk to Object::getSpecialPowerModule at 0x001BF410
+?canDoSpecialPower@ActionManager@@QAE_NPBVObject@@PBVSpecialPowerTemplate@@@Z,0x0002E4A1,INFERRED NAME; two-arg BFME special-power gate at 0x000EB710 (ZH's canDoSpecialPower takes five args)
