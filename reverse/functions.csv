@@ -7460,7 +7460,7 @@ name,export_rva,target_rva,target_size,source,status,notes
 ?OnQueryResume@DownloadManager@@UAEJXZ,,0x006CF680,3,Code/GameEngine/Source/GameNetwork/DownloadManager.cpp,matched,icf-owner=?Get_Sort_Level@RenderObjClass@@UBEHXZ
 ?OnStatusUpdate@DownloadManagerMunkee@@UAEJH@Z,,0x004C7DF0,62,Code/GameEngine/Source/GameClient/GUI/GUICallbacks/Menus/DownloadMenu.cpp,matched,
 ?On_Activate_App@WW3D@@SA?AW4WW3DErrorType@@XZ,,0x006CF680,3,Code/Libraries/Source/WWVegas/WW3D2/ww3d.cpp,matched,icf-owner=?Get_Sort_Level@RenderObjClass@@UBEHXZ
-?On_Frame_Update@ParticleBufferClass@@UAEXXZ,,0x00984E20,58,Code/GameEngine/Source/Common/promoted_On_Frame_Update_ParticleBufferClass_UAEXXZ_00984E20.cpp,matched,Grok promote masm dump to Code/ naked C++ exact 58B
+?On_Frame_Update@ParticleBufferClass@@UAEXXZ,,0x00984E20,58,Code/GameEngine/Source/Common/promoted_On_Frame_Update_ParticleBufferClass_UAEXXZ_00984E20.cpp,matched,clean C++ conversion; ZH part_buf.cpp body with WWPROFILE/WWASSERT compiled away; cached-bounds flag is bit 0x20000 at this+0x10; Scene at this+0x80; Emitter at this+0x254; vtable +0x1E4 Is_Complete +0x208 Emit +0x38 Register
 ?On_Frame_Update@ParticleEmitterClass@@UAEXXZ,,0x0097EED0,273,Code/Libraries/Source/WWVegas/WW3D2/part_emt.cpp,matched,exact-ambiguous COMDAT pinned by string anchor
 ?Open@GameFileClass@@UAEHH@Z,,0x006F6170,49,Code/GameEngineDevice/Source/W3DDevice/GameClient/W3DFileSystem.cpp,matched,
 ?Open@GameFileClass@@UAEHPBDH@Z,,0x006F6130,50,Code/GameEngineDevice/Source/W3DDevice/GameClient/W3DFileSystem.cpp,matched,
